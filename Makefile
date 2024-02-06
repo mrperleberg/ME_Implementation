@@ -2,10 +2,10 @@ all: RaceHorses
 
 
 RaceHorses: 
-	python.exe main.py video/RaceHorses_416x240_30.yuv 416 240 300 > bitstream.txt
+	python.exe main.py video/RaceHorses_416x240_30.yuv 416 240 30 > bitstream.txt
 
 BasketballDrive: 
-	python.exe main.py D:/Documents/referenceSoftwares/sequencias/1080p/BasketballDrive_1920x1080_50.yuv 1920 1080 4 > BasketballDrive_3Frames.txt
+	python.exe main.py D:/Documents/referenceSoftwares/sequencias/1080p/BasketballDrive_1920x1080_50.yuv 1920 1080 3 > BasketballDrive_3Frames.txt
 
 os1080:
 	python.exe main.py D:/Documents/referenceSoftwares/sequencias/1080p/ArenaOfValor_1920x1080_60_8bit_420.yuv 1920 1080 60 > ArenaOfValor_60frames.txt
